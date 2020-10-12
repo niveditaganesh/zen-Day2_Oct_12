@@ -1,0 +1,21 @@
+QUESTION 1: 
+	Generate an API key with given link below
+    * https://openweathermap.org/guide
+    * Print the current weather data in console- By city name, By city ID, By lat lang
+	
+ANSWER:
+	index.html
+	script.js
+	API_Output.jpeg
+	
+QUESTION 2:
+	Give an Write up on the topic authorization & CORS
+	
+ANSWER:
+	Autherization&CORS.pdf
+	
+QUESTION 3:
+	Use HTML tags to create your simple Resume
+	
+ANSWER:
+	Resume.html
