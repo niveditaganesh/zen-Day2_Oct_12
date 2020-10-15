@@ -5,10 +5,10 @@
 a=["http://api.openweathermap.org/data/2.5/weather?q=London&appid=d3d077a6d591e1f71c36cb93ced3b5c4",
 "http://api.openweathermap.org/data/2.5/weather?id=2172797&appid=d3d077a6d591e1f71c36cb93ced3b5c4",
 "http://api.openweathermap.org/data/2.5/weather?lat=20.0&lon=77.0&appid=d3d077a6d591e1f71c36cb93ced3b5c4"]
-for(i=0;i<a.length;i++){
-var request= new XMLHttpRequest();
 
-request.open("GET",a[i],true);
+var request= new XMLHttpRequest();
+function sc(i){
+request.open("GET",i,true);
 
 request.send();
 request.onload=function(){
@@ -16,5 +16,6 @@ request.onload=function(){
 	
 	console.log(data);
 	
-}
-}
+}}
+sc(a[1]);
+
